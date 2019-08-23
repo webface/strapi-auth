@@ -1,0 +1,45 @@
+{
+  "name": "bsa-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Garrett Fritz <garrett.fritz.dev@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gfritzdev/bsa-frontend.git"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "3.0.1",
+    "@apollo/react-ssr": "3.0.1",
+    "apollo-boost": "^0.4.4",
+    "apollo-link": "^1.2.12",
+    "apollo-link-context": "^1.0.18",
+    "axios": "^0.19.0",
+    "babel-plugin-styled-components": "^1.10.6",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "fontfaceobserver": "^2.1.0",
+    "graphql": "^14.4.2",
+    "graphql-tag": "^2.10.1",
+    "https-proxy-agent": "^2.2.2",
+    "isomorphic-unfetch": "^3.0.0",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.15",
+    "next": "latest",
+    "next-cookies": "^1.1.2",
+    "next-routes": "^1.4.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-apollo": "^3.0.1",
+    "react-dom": "^16.9.0",
+    "react-particles-js": "^2.7.0",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "dev": "node ./utils/server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node ./utils/server.js"
+  },
+  "devDependencies": {}
+}

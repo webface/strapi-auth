@@ -1,0 +1,12 @@
+.DS_STORE
+node_modules
+*.log*
+.module-cache
+.vscode
+.next
+scripts/flow/*/.flowconfig
+*~
+*.pyc
+.grunt
+build/
+.module-cache
